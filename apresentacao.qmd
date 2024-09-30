@@ -6,3 +6,45 @@ editor: visual
 
 # Quem é a Fê?
 
+# E sabe o que é o mais íncrivel de TUDO isso?
+
+#  {background-color="#B048A2"}
+
+É que caminho ao lado de grandes mulheres.
+
+![](img/turma_RLadiesgyn.jpg)
+
+::: footer
+Curso Introdução ao RBio e Experimentos ministrado por Dthenifer
+::: 
+
+# Instalando o R (ou não?)
+
+Aqui é importante dizer que o nome da linguagem é R e o nome da IDE (integrated development environment) é RStudio, ou seja, a IDE RStudio é um ambiente de desenvolvimento que utilizamos para editar e executar os códigos em R. E claro, não existe somente a IDE RStudio que oferece a possibilidade de trabalhar com a linguagem R, há várias outras que também executam códigos em R, por exemplo: **Visual Studio Code (VSCode)**.
+
+
+Você tem **duas opções** para trabalhar com a IDE RStudio.
+
+1. Posit Cloud
+2. Localmente
+
+# Posit Cloud
+
+-   Para acessar o [Posit Cloud](https://posit.cloud/) você pode fazer login com o gmail, GitHub ou qualquer outra conta que você tiver interesse em utilizar para o cadastro.
+
+-   Você poderá utilizar o espaço referente a 25 projetos e 25 horas (por mês) de computação. As horas de computação representam o uso da máquina virtual durante cada período para editar, executar, renderizar ou apresentar conteúdo.
+
+-   Por padrão, cada projeto recebe 1 GB de RAM e 1 CPU, além de um limite de execução em segundo plano de 1 hora.
+
+# Localmente
+
+
+-   No dia a dia, utilizar o R localmente é mais funcional e, para isso, você deve [instalar o R](https://posit.co/download/rstudio-desktop/). Em relação a IDE RStudio você pode instalar [aqui](https://posit.co/download/rstudio-desktop/).
+
+- Você pode seguir o tutorial de instalação do R e da IDE RStudio através da didática incrível da [Fernanda Peres](https://fernandafperes.com.br/) no [Youtube](https://youtu.be/WVogdSlk7gY?si=5IdaVHMgisEY3MZG)
+
+
+
+
+
+
