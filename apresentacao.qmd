@@ -1,5 +1,5 @@
 ---
-title: "Introdução ao Quarto"
+title: "Relatórios Parametrizados com Quarto"
 format: revealjs
 editor: visual
 ---
@@ -120,7 +120,15 @@ fig-alt="HTML report for soil health survey participant, generated from a parame
 **Públicos diferentes, relatórios diferentes**
 
 
+# Objetivos
 
+1. Entenda o que é o relatório parametrizado e quando ele é útil.
+
+2. Saiba como converter um relatório em um modelo parametrizado.
+
+3. Renderize todas as variações do relatório de uma só vez usando {quarto} e {purrr}.
+
+4. Gere várias saídas de formato a partir do mesmo arquivo de modelo com conteúdo condicional e execução de código condicional.
 
 
 # Instalar o Quarto
@@ -132,3 +140,5 @@ Instalar os seguintes pacotes:
 ```{r}
 
 ```
+
+# Como funciona?
