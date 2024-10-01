@@ -133,12 +133,25 @@ fig-alt="HTML report for soil health survey participant, generated from a parame
 
 # Instalar o Quarto
 
-# Exercício 1
+# {background-color="#B048A2"} 
+
+💪🏼 Exercício 0 
+
+<br>
+
+```{r}
+#| echo: false
+countdown::countdown(minutes = 1, top = 0)
+```
 
 Instalar os seguintes pacotes:
 
 ```{r}
 
 ```
+
+
+
+
 
 # Como funciona?
