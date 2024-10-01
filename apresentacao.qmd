@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Introdução ao Quarto"
 format: revealjs
 editor: visual
 ---
@@ -16,6 +16,18 @@ editor: visual
 
 ::: footer
 Curso Introdução ao RBio e Experimentos ministrado por Dthenifer
+:::
+
+# Antes de tudo...
+
+# 
+
+O *Código de Conduta* também se estende à versão online e presencial de nossos eventos e não será tolerada qualquer forma de assédios ou intimidações de qualquer participante, seja audiência, palestrantes, colaboradores, ou quaisquer membros da comunidade.
+
+::: fragment
+Dúvidas frequentes:
+
+*MATERIAIS!* - Os materiais utilizados no nosso curso (apresentação, scripts) serão disponibilizados através do nosso GitHub. Acesse o site [R-Ladies Goiânia](https://www.rladiesgyn.com/) (www.rladiesgyn.com) e saiba mais sobre as nossas redes e materiais disponíveis.
 :::
 
 # Instalando o R (ou não?)
@@ -40,3 +52,20 @@ Você tem **duas opções** para trabalhar com a IDE RStudio.
 -   No dia a dia, utilizar o R localmente é mais funcional e, para isso, você deve [instalar o R](https://posit.co/download/rstudio-desktop/). Em relação a IDE RStudio você pode instalar [aqui](https://posit.co/download/rstudio-desktop/).
 
 -   Você pode seguir o tutorial de instalação do R e da IDE RStudio através da didática incrível da [Fernanda Peres](https://fernandafperes.com.br/) no [Youtube](https://youtu.be/WVogdSlk7gY?si=5IdaVHMgisEY3MZG)
+
+# Vamos começar?
+
+# 
+
+
+
+
+
+
+
+
+
+
+
+
+
