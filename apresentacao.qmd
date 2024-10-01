@@ -67,20 +67,17 @@ Quarto é uma versão multilíngue de próxima geração do R Markdown do RStudi
 
 . . .
 
-:::: {.columns}
+::: columns
 ::: {.column width="50%"}
-
 **R Markdown**
 
 ```{r, label=rmarkdown, eval=FALSE}
 #| echo: fenced
 # code
 ```
-
 :::
 
 ::: {.column width="50%"}
-
 **Quarto**
 
 ```{r}
@@ -90,31 +87,19 @@ Quarto é uma versão multilíngue de próxima geração do R Markdown do RStudi
 
 # code
 ```
-
 :::
-::::
+:::
 
-
-#
-
+# 
 
 ![](img/imagem5.png){.fragment fragment-index="1" fig-alt="A schematic representing rendering of Quarto documents from .qmd, to knitr or jupyter, to plain text markdown, then converted by pandoc into any number of output types including html, PDF, or Word document." fig-align="center" style="margin-top:-1.5em;margin-bottom:-1em"}
 
-
 # Instalar o Quarto
 
-
-
-
-
 # Exercício 1
-
 
 Instalar os seguintes pacotes:
 
 ```{r}
 
 ```
-
-
-
