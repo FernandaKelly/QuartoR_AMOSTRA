@@ -94,6 +94,35 @@ Quarto é uma versão multilíngue de próxima geração do R Markdown do RStudi
 
 ![](img/imagem5.png){.fragment fragment-index="1" fig-alt="A schematic representing rendering of Quarto documents from .qmd, to knitr or jupyter, to plain text markdown, then converted by pandoc into any number of output types including html, PDF, or Word document." fig-align="center" style="margin-top:-1.5em;margin-bottom:-1em"}
 
+# Aplicações 
+
+::: columns
+::: {.column width="50%"}
+![](img/ocean-floor.png){.lightbox group="examples"
+fig-alt="RStudio R Markdown parameterized report project for mapping ocean floors."}
+
+[Ocean floor maps](https://rmarkdown.rstudio.com/lesson-6.html)
+:::
+
+::: {.column width="50%"}
+![](img/soils-report.png){.lightbox group="examples"
+
+fig-alt="HTML report for soil health survey participant, generated from a parameterized Quarto report."}
+
+[Soil health](https://wa-department-of-agriculture.github.io/soils/)
+:::
+:::
+
+. . .
+
+<br>
+
+**Públicos diferentes, relatórios diferentes**
+
+
+
+
+
 # Instalar o Quarto
 
 # Exercício 1
