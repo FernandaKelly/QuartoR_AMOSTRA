@@ -55,17 +55,66 @@ Você tem **duas opções** para trabalhar com a IDE RStudio.
 
 # Vamos começar?
 
-# 
+# Quarto
+
+Quarto é uma versão multilíngue de próxima geração do R Markdown do RStudio, com muitos novos recursos e capacidades. Assim como o R Markdown, o Quarto usa o **Knitr** para executar código R e, portanto, é capaz de renderizar a maioria dos arquivos Rmd existentes sem modificação.
+
+## Convert `.Rmd` → `.qmd`
+
+1.  Alterar a extensão do documento `.Rmd` → `.qmd`
+2.  Alterar o YAML header do seu documento (`output:` → `format:`)
+3.  Alterar chunk headers com `knitr::convert_chunk_header()`
+
+. . .
+
+:::: {.columns}
+::: {.column width="50%"}
+
+**R Markdown**
+
+```{r, label=rmarkdown, eval=FALSE}
+#| echo: fenced
+# code
+```
+
+:::
+
+::: {.column width="50%"}
+
+**Quarto**
+
+```{r}
+#| label: quarto
+#| echo: fenced
+#| eval: false
+
+# code
+```
+
+:::
+::::
+
+
+#
+
+
+![](img/imagem5.png){.fragment fragment-index="1" fig-alt="A schematic representing rendering of Quarto documents from .qmd, to knitr or jupyter, to plain text markdown, then converted by pandoc into any number of output types including html, PDF, or Word document." fig-align="center" style="margin-top:-1.5em;margin-bottom:-1em"}
+
+
+# Instalar o Quarto
 
 
 
 
 
+# Exercício 1
 
 
+Instalar os seguintes pacotes:
 
+```{r}
 
-
+```
 
 
 
