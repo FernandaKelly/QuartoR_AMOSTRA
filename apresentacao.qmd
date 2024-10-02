@@ -112,8 +112,10 @@ Quarto é uma versão multilíngue de próxima geração do R Markdown do RStudi
 # 
 
 ![](img/imagem5.png){fig-align="center"}
+
+
 ::: footer
-Artwork from "Hello, Quarto" keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.
+Illustrated by Allison Horst.
 :::
 
 # Aplicações 
@@ -150,11 +152,24 @@ Você pode navegar por vários exemplos [aqui](https://quarto.org/docs/gallery/)
 Sim! Nós temos que [instalar](https://quarto.org/docs/download/index.html#:~:text=Install%20a%20release%20or%20pre-release%20build%20of%20Quarto.%20Current%20Release) a extensão Quarto.
 
 ![](img/imagem3.png){fig-align="center"}
+
+#
+
 ::: {.callout-note}
 
 ## Curiosidade
 
 Se você for utilizar o RMarkdown na nuvem, você **provavelmente** vai ter que instalar o [Pandoc](https://pandoc.org/installing.html) para converter os documentos para HTML, PDF, WORD.
+:::
+
+
+
+![](img/imagem9.png){fig-align="center"}
+
+
+
+::: footer
+Illustrated by Allison Horst.
 :::
 
 
@@ -169,7 +184,11 @@ Se você for utilizar o RMarkdown na nuvem, você **provavelmente** vai ter que 
 countdown::countdown(minutes = 1, top = 0)
 ```
 
-Instalar os seguintes pacotes:
+Instalar e carregar os seguintes pacotes:
+
+- {tidyverse}
+- {quarto}
+- {purrr}
 
 
 
