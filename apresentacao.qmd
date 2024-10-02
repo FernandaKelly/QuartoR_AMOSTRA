@@ -40,12 +40,8 @@ Acesse o site [R-Ladies Goiânia](https://www.rladiesgyn.com/) e saiba mais sobr
 ![](img/imagem8.png){fig-align="center"}
 
 ::: footer
-**(www.rladiesgyn.com)**
+**www.rladiesgyn.com**
 :::
-
-
-
-
 
 # Instalando o R (ou não?)
 
@@ -82,7 +78,7 @@ Você tem **duas opções** para trabalhar com a IDE RStudio.
 
 Quarto é uma versão multilíngue de próxima geração do R Markdown do RStudio, com muitos novos recursos e capacidades. Assim como o R Markdown, o Quarto usa o **Knitr** para executar código R e, portanto, é capaz de renderizar a maioria dos arquivos Rmd existentes sem modificação.
 
-## Convert `.Rmd` → `.qmd`
+## Converter `.Rmd` → `.qmd`
 
 1.  Alterar a extensão do documento `.Rmd` → `.qmd`
 2.  Alterar o YAML header do seu documento (`output:` → `format:`)
@@ -116,6 +112,9 @@ Quarto é uma versão multilíngue de próxima geração do R Markdown do RStudi
 # 
 
 ![](img/imagem5.png){fig-align="center"}
+::: footer
+Artwork from "Hello, Quarto" keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.
+:::
 
 # Aplicações 
 
@@ -125,7 +124,6 @@ O Quarto pode produzir uma grande variedade de formatos de saída, alguns deles 
 
 
 Você pode navegar por vários exemplos [aqui](https://quarto.org/docs/gallery/). 
-
 
 
 # Objetivos do nosso encontro...
@@ -148,6 +146,8 @@ Você pode navegar por vários exemplos [aqui](https://quarto.org/docs/gallery/)
 
 
 # Instalar o Quarto
+
+
 
 # {background-color="#B048A2"} 
 
