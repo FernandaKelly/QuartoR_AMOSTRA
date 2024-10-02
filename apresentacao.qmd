@@ -219,8 +219,23 @@ A Sintaxe Markdown no Quarto é idêntica a do RMarkdown quando queremos tornar 
 - ~~strikethrough~~: usar ~~ entre o texto desejado;
 - `verbatim code`: usar `` entre o texto desejado.
 
-Mas, o legal do Quarto, é poder utilizar os [Callout Blocks](https://quarto.org/docs/authoring/callouts.html).
+. . .
 
+Mas, o legal do Quarto, é poder utilizar os [Callout Blocks](https://quarto.org/docs/authoring/callouts.html). 😎
+
+# Fê, eu quero mesmo é inserir link no meu documento, como faço? 😅
+
+#
+
+Digite `[nome do link](site do link)` ou apenas coloque entre <link-que-eu-quero.com.br>.
+
+Já para **imagens**, é necessário, por boas práticas, que você tenha uma pasta somente para este tipo de arquivo, pois ao inserir imagem usaremos o seguinte código:
+
+`![](img/fig-8.png)`
+
+. . .
+
+As configurações de imagens 
 
 ## Callout Blocks
 
@@ -243,15 +258,20 @@ A estrutura das chamadas é:
 
 ```{r}
 #| echo: false
-countdown::countdown(minutes = 1, top = 0)
+countdown::countdown(minutes = 2, top = 0)
 ```
 
-Vá em `File` → `New File` → `Quarto Document`. Nomeie o arquivo e escolha entre as opções o HTML.
+Utilize todas as formas de chamadas e nomei-os da seguinte forma:
 
-#
+` ::: {.callout-note}  ## Observação! :::
+`
 
+# Sintaxe
 
-![](img/imagem11.png){fig-align="center"}
+Os Títulos/Subtítulos ou Seções/Subseções são demarcados através da `#`. 
+
+![](img/imagem12.png){fig-align="center"}
+
 
 
 
@@ -271,7 +291,23 @@ Algumas opções são específicas de um determinado tipo documento, assim, pode
 :::
 
 
+# {background-color="#B048A2"} 
 
+💪🏼 Exercício 1 
+
+<br>
+
+```{r}
+#| echo: false
+countdown::countdown(minutes = 1, top = 0)
+```
+
+Vá em `File` → `New File` → `Quarto Document`. Nomeie o arquivo e escolha entre as opções o HTML.
+
+#
+
+
+![](img/imagem11.png){fig-align="center"}
 
 
 
