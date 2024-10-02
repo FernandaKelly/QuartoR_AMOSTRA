@@ -219,13 +219,56 @@ A Sintaxe Markdown no Quarto é idêntica a do RMarkdown quando queremos tornar 
 - ~~strikethrough~~: usar ~~ entre o texto desejado;
 - `verbatim code`: usar `` entre o texto desejado.
 
+Mas, o legal do Quarto, é poder utilizar os [Callout Blocks](https://quarto.org/docs/authoring/callouts.html).
+
+
+## Callout Blocks
+
+Há cinco tipos diferentes de chamadas disponíveis.A cor e o ícone serão diferentes dependendo do tipo que você selecionar. Aqui está a aparência dos vários tipos na saída HTML:
+
+::: {.callout-note}
+`note`, `warning`, `important`, `tip`, e `caution`.
+:::
+
+A estrutura das chamadas é: 
+
+`::: {.callout-note} :::
+`
+
+# {background-color="#B048A2"} 
+
+💪🏼 Exercício 1 
+
+<br>
+
+```{r}
+#| echo: false
+countdown::countdown(minutes = 1, top = 0)
+```
+
+Vá em `File` → `New File` → `Quarto Document`. Nomeie o arquivo e escolha entre as opções o HTML.
+
+#
+
+
+![](img/imagem11.png){fig-align="center"}
 
 
 
+# Estrutura
+
+YAML (Yet Another Markup Language) é o local onde são inseridas configurações sobre o documento (formatação, data, título, autor, entre outros). É sempre inserido no início do documento e delimitado por ---.
 
 
+![](img/imagem10.png){fig-align="center"}
 
+::: {.callout-note}
 
+## Importante!
+
+Algumas opções são específicas de um determinado tipo documento, assim, podem não funcionar em outro formato (pdf, html, revealjs, por exemplo);
+**Cuidado com a indentação!**
+:::
 
 
 
