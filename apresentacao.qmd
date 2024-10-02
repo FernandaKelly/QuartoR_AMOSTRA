@@ -191,9 +191,46 @@ Instalar e carregar os seguintes pacotes:
 - {purrr}
 
 
+# Markdown
+
+# 
+
+Quarto é baseado em Pandoc e usa sua variação de markdown como sua sintaxe de documento subjacente. Pandoc markdown é uma versão estendida e ligeiramente revisada da sintaxe Markdown de **John Gruber** .
+
+Markdown é um `formato` de texto simples que foi projetado para ser *fácil* de escrever e, ainda mais ***importante***, fácil de ~~ler~~.
+
+
+::: {.callout-note}
+
+## John Gruber
+
+Um documento formatado em Markdown deve ser publicável como está, como texto simples, sem parecer que foi marcado com tags ou instruções de formatação.
+:::
+
+
+## Formatação de Texto
+
+
+A Sintaxe Markdown no Quarto é idêntica a do RMarkdown quando queremos tornar algum texto em itálico, negrito ou negrito itálico:
+
+- *italics*: usar * entre o texto desejado;
+- **bold**: usar ** entre o texto desejado;
+- ***bold italics***: usar *** entre o texto desejado;
+- ~~strikethrough~~: usar ~~ entre o texto desejado;
+- `verbatim code`: usar `` entre o texto desejado.
 
 
 
 
 
-# Como funciona?
+
+
+
+
+
+
+
+
+
+
+
