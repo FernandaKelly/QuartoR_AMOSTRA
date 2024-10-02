@@ -147,6 +147,9 @@ Você pode navegar por vários exemplos [aqui](https://quarto.org/docs/gallery/)
 
 # Instalar o Quarto
 
+Sim! Nós temos que [instalar](https://quarto.org/docs/download/index.html#:~:text=Install%20a%20release%20or%20pre-release%20build%20of%20Quarto.%20Current%20Release) a extensão Quarto.
+
+![](img/imagem3.png){fig-align="center"}
 
 
 # {background-color="#B048A2"} 
