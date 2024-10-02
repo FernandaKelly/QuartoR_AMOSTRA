@@ -235,7 +235,7 @@ Já para **imagens**, é necessário, por boas práticas, que você tenha uma pa
 
 . . .
 
-As configurações de imagens 
+O Quarto inclui uma série de recursos que visam facilitar o trabalho com figuras e subfiguras, bem como a criação de painéis que contenham várias figuras, tabelas ou outro conteúdo. Vocês podem acessar [configuração de imagens](https://quarto.org/docs/authoring/figures.html) e se aventurarem.
 
 ## Callout Blocks
 
@@ -272,8 +272,22 @@ Os Títulos/Subtítulos ou Seções/Subseções são demarcados através da `#`.
 
 ![](img/imagem12.png){fig-align="center"}
 
+# {background-color="#B048A2"} 
+
+💪🏼 Exercício 1 
+
+<br>
+
+```{r}
+#| echo: false
+countdown::countdown(minutes = 2, top = 0)
+```
+
+Vá em `File` → `New File` → `Quarto Document`. Nomeie o arquivo e escolha entre as opções o HTML.
 
 
+
+![](img/imagem11.png){fig-align="center"}
 
 # Estrutura
 
@@ -291,23 +305,7 @@ Algumas opções são específicas de um determinado tipo documento, assim, pode
 :::
 
 
-# {background-color="#B048A2"} 
 
-💪🏼 Exercício 1 
-
-<br>
-
-```{r}
-#| echo: false
-countdown::countdown(minutes = 1, top = 0)
-```
-
-Vá em `File` → `New File` → `Quarto Document`. Nomeie o arquivo e escolha entre as opções o HTML.
-
-#
-
-
-![](img/imagem11.png){fig-align="center"}
 
 
 
