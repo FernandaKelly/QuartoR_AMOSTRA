@@ -150,6 +150,12 @@ Você pode navegar por vários exemplos [aqui](https://quarto.org/docs/gallery/)
 Sim! Nós temos que [instalar](https://quarto.org/docs/download/index.html#:~:text=Install%20a%20release%20or%20pre-release%20build%20of%20Quarto.%20Current%20Release) a extensão Quarto.
 
 ![](img/imagem3.png){fig-align="center"}
+::: {.callout-note}
+
+## Curiosidade
+
+Se você for utilizar o RMarkdown na nuvem, você **provavelmente** vai ter que instalar o [Pandoc](https://pandoc.org/installing.html) para converter os documentos para HTML, PDF, WORD.
+:::
 
 
 # {background-color="#B048A2"} 
