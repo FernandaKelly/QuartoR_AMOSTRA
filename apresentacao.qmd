@@ -113,23 +113,23 @@ Você pode navegar por vários exemplos [aqui](https://quarto.org/docs/gallery/)
 
 
 
-# Objetivos
+# Objetivos do nosso encontro...
 
 . . .
 
-1. Entenda o que é o relatório parametrizado e quando ele é útil.
+1. Noções básicas de Markdown.
 
 . . .
 
-2. Saiba como converter um relatório em um modelo parametrizado.
+2. Entender as possíveis estruturas que um corpo de relatório pode ter.
 
 . . .
 
-3. Renderize todas as variações do relatório de uma só vez usando {quarto} e {purrr}.
+3. Renderizar seu primeiro relatório utilizando {quarto}.
 
 . . .
 
-4. Gere várias saídas de formato a partir do mesmo arquivo de modelo com conteúdo condicional e execução de código condicional.
+4. Renderizar todas as variações do relatório de uma só vez usando {quarto} e {purrr} (se der tempo!).
 
 
 # Instalar o Quarto
