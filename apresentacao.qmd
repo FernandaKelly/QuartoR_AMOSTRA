@@ -1,5 +1,6 @@
 ---
-title: "Relatórios Parametrizados com Quarto"
+title: "Introdução ao Quarto"
+subtitle: "R-Ladies Goiânia 💜"
 format: revealjs
 editor: visual
 ---
@@ -29,8 +30,22 @@ O **Código de Conduta** também se estende à versão online e presencial de no
 ::: fragment
 Dúvidas frequentes:
 
-**MATERIAIS!** - Os materiais utilizados no nosso curso (apresentação, scripts) serão disponibilizados através do nosso GitHub. Acesse o site [R-Ladies Goiânia](https://www.rladiesgyn.com/) **(www.rladiesgyn.com)** e saiba mais sobre as nossas redes e materiais disponíveis.
+**MATERIAIS!** - Os materiais utilizados no nosso curso (apresentação, scripts) serão disponibilizados através do nosso GitHub. 
 :::
+
+#
+
+Acesse o site [R-Ladies Goiânia](https://www.rladiesgyn.com/) e saiba mais sobre as nossas redes e materiais disponíveis.
+
+![](img/imagem8.png){fig-align="center"}
+
+::: footer
+**(www.rladiesgyn.com)**
+:::
+
+
+
+
 
 # Instalando o R (ou não?)
 
@@ -100,7 +115,7 @@ Quarto é uma versão multilíngue de próxima geração do R Markdown do RStudi
 
 # 
 
-![](img/imagem5.png){.fragment fragment-index="1" fig-alt="A schematic representing rendering of Quarto documents from .qmd, to knitr or jupyter, to plain text markdown, then converted by pandoc into any number of output types including html, PDF, or Word document." fig-align="center" style="margin-top:-1.5em;margin-bottom:-1em"}
+![](img/imagem5.png){fig-align="center"}
 
 # Aplicações 
 
@@ -147,9 +162,7 @@ countdown::countdown(minutes = 1, top = 0)
 
 Instalar os seguintes pacotes:
 
-```{r}
-install.packages("tidyverse")
-```
+
 
 
 
