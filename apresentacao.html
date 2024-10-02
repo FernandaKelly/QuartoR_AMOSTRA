@@ -7,13 +7,10 @@
 <link href="apresentacao_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="apresentacao_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="apresentacao_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="apresentacao_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="apresentacao_files/libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="apresentacao_files/libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="apresentacao_files/libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
+<link href="apresentacao_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.4.555">
 
-  <title>Relatórios Parametrizados com Quarto</title>
+  <title>Introdução ao Quarto</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -397,7 +394,8 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Relatórios Parametrizados com Quarto</h1>
+  <h1 class="title">Introdução ao Quarto</h1>
+  <p class="subtitle">R-Ladies Goiânia 💜</p>
 
 <div class="quarto-title-authors">
 </div>
@@ -441,15 +439,19 @@
 <h1>Instalando o R (ou não?)</h1>
 <p><br></p>
 <p>Aqui é importante dizer que o nome da linguagem é R e o nome da IDE (integrated development environment) é RStudio, ou seja, a IDE RStudio é um ambiente de desenvolvimento que utilizamos para editar e executar os códigos em R. E claro, não existe somente a IDE RStudio que oferece a possibilidade de trabalhar com a linguagem R, há várias outras que também executam códigos em R, por exemplo: <strong>Visual Studio Code (VSCode)</strong>.</p>
+</section>
+
+<section>
+<section id="section-2" class="title-slide slide level1 center">
+<h1></h1>
 <p>Você tem <strong>duas opções</strong> para trabalhar com a IDE RStudio.</p>
 <ol type="1">
 <li>Posit Cloud</li>
 <li>Localmente</li>
 </ol>
 </section>
-
-<section id="posit-cloud" class="title-slide slide level1 center">
-<h1>Posit Cloud</h1>
+<section id="posit-cloud" class="slide level2">
+<h2>Posit Cloud</h2>
 <p><br></p>
 <ul>
 <li><p>Para acessar o <a href="https://posit.cloud/">Posit Cloud</a> você pode fazer login com o gmail, GitHub ou qualquer outra conta que você tiver interesse em utilizar para o cadastro.</p></li>
@@ -457,15 +459,13 @@
 <li><p>Por padrão, cada projeto recebe 1 GB de RAM e 1 CPU, além de um limite de execução em segundo plano de 1 hora.</p></li>
 </ul>
 </section>
-
-<section id="localmente" class="title-slide slide level1 center">
-<h1>Localmente</h1>
+<section id="localmente" class="slide level2">
+<h2>Localmente</h2>
 <ul>
 <li><p>No dia a dia, utilizar o R localmente é mais funcional e, para isso, você deve <a href="https://posit.co/download/rstudio-desktop/">instalar o R</a>. Em relação a IDE RStudio você pode instalar <a href="https://posit.co/download/rstudio-desktop/">aqui</a>.</p></li>
 <li><p>Você pode seguir o tutorial de instalação do R e da IDE RStudio através da didática incrível da <a href="https://fernandafperes.com.br/">Fernanda Peres</a> no <a href="https://youtu.be/WVogdSlk7gY?si=5IdaVHMgisEY3MZG">Youtube</a></p></li>
 </ul>
-</section>
-
+</section></section>
 <section id="vamos-começar" class="title-slide slide level1 center">
 <h1>Vamos começar?</h1>
 
@@ -506,37 +506,40 @@
 </div>
 </div>
 </section></section>
-<section id="section-2" class="title-slide slide level1 center">
+<section id="section-3" class="title-slide slide level1 center">
 <h1></h1>
 
-<img data-src="img/imagem5.png" class="fragment quarto-figure quarto-figure-center r-stretch" style="margin-top:-1.5em;margin-bottom:-1em" data-fragment-index="1" alt="A schematic representing rendering of Quarto documents from .qmd, to knitr or jupyter, to plain text markdown, then converted by pandoc into any number of output types including html, PDF, or Word document."></section>
+<img data-src="img/imagem5.png" class="quarto-figure quarto-figure-center r-stretch"></section>
 
 <section id="aplicações" class="title-slide slide level1 center">
 <h1>Aplicações</h1>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><a href="img/ocean-floor.png" class="lightbox" data-gallery="examples"><img data-src="img/ocean-floor.png" alt="RStudio R Markdown parameterized report project for mapping ocean floors."></a></p>
-<p><a href="https://rmarkdown.rstudio.com/lesson-6.html">Ocean floor maps</a></p>
-</div><div class="column" style="width:50%;">
-<p><img data-src="img/soils-report.png">{.lightbox group=“examples”</p>
-<p>fig-alt=“HTML report for soil health survey participant, generated from a parameterized Quarto report.”}</p>
-<p><a href="https://wa-department-of-agriculture.github.io/soils/">Soil health</a></p>
-</div>
-</div>
-<div class="fragment">
-<p><br></p>
-<p><strong>Públicos diferentes, relatórios diferentes</strong></p>
-</div>
+<p>O Quarto pode produzir uma grande variedade de formatos de saída, alguns deles são: Artigos e relatórios, apresentações, painéis, sites, livros e documentação interativa. Em todos os formatos é possível obter resultados em HTML, shiny, PDF e entre outros.</p>
+
+<img data-src="img/imagem7.png" class="quarto-figure quarto-figure-center r-stretch"><p>Você pode navegar por vários exemplos <a href="https://quarto.org/docs/gallery/">aqui</a>.</p>
 </section>
 
-<section id="objetivos" class="title-slide slide level1 center">
-<h1>Objetivos</h1>
+<section id="objetivos-do-nosso-encontro" class="title-slide slide level1 center">
+<h1>Objetivos do nosso encontro…</h1>
+<div class="fragment">
 <ol type="1">
-<li><p>Entenda o que é o relatório parametrizado e quando ele é útil.</p></li>
-<li><p>Saiba como converter um relatório em um modelo parametrizado.</p></li>
-<li><p>Renderize todas as variações do relatório de uma só vez usando {quarto} e {purrr}.</p></li>
-<li><p>Gere várias saídas de formato a partir do mesmo arquivo de modelo com conteúdo condicional e execução de código condicional.</p></li>
+<li>Noções básicas de Markdown.</li>
 </ol>
+</div>
+<div class="fragment">
+<ol start="2" type="1">
+<li>Entender as possíveis estruturas que um corpo de relatório pode ter.</li>
+</ol>
+</div>
+<div class="fragment">
+<ol start="3" type="1">
+<li>Renderizar seu primeiro relatório utilizando {quarto}.</li>
+</ol>
+</div>
+<div class="fragment">
+<ol start="4" type="1">
+<li>Renderizar todas as variações do relatório de uma só vez usando {quarto} e {purrr} (se der tempo!).</li>
+</ol>
+</div>
 </section>
 
 <section id="instalar-o-quarto" class="title-slide slide level1 center">
@@ -544,13 +547,13 @@
 
 </section>
 
-<section id="section-3" class="title-slide slide level1 center" data-background-color="#B048A2">
+<section id="section-4" class="title-slide slide level1 center" data-background-color="#B048A2">
 <h1></h1>
 <p>💪🏼 Exercício 0</p>
 <p><br></p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_f2114d50" data-update-every="1" tabindex="0" style="top:0;right:0;">
+<div class="countdown" id="timer_8c69dd71" data-update-every="1" tabindex="0" style="top:0;right:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">01</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -1029,31 +1032,6 @@
       }
     });
     </script>
-    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","loop":false,"descPosition":"bottom","closeEffect":"zoom"});
-    window.onload = () => {
-      lightboxQuarto.on('slide_before_load', (data) => {
-        const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-        const href = trigger.getAttribute('href');
-        if (href !== null) {
-          const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-          if (imgEl !== null) {
-            const srcAttr = imgEl.getAttribute("src");
-            if (srcAttr && srcAttr.startsWith("data:")) {
-              slideConfig.href = srcAttr;
-            }
-          }
-        } 
-      });
-
-      lightboxQuarto.on('slide_after_load', (data) => {
-        const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(slideNode);
-        }
-      });
-
-    };
-              </script>
     
 
 </body></html>
