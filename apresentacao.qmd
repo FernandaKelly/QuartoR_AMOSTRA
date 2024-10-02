@@ -104,11 +104,12 @@ Quarto é uma versão multilíngue de próxima geração do R Markdown do RStudi
 
 # Aplicações 
 
+O Quarto pode produzir uma grande variedade de formatos de saída, alguns deles são: Artigos e relatórios, apresentações, painéis, sites, livros e documentação interativa. Em todos os formatos é possível obter resultados em HTML, shiny, PDF e entre outros.
+
+![](img/imagem7.png){fig-align="center"}
 
 
-
-
-
+Você pode navegar por vários exemplos [aqui](https://quarto.org/docs/gallery/). 
 
 
 
